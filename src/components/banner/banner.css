@@ -1,0 +1,102 @@
+.banner{
+    /* background: url(pic/banner-bg.png); */
+    background-repeat: no-repeat;
+    background-position:center ;
+    background-size:cover ;
+    /* padding: 450px 0; */
+    padding-top: 300px;
+    padding-bottom: 430px;
+    position: relative;
+}
+.banner .round-shape{
+    width: 121px;
+    height: 121px;
+    border: 1px solid #FFABBA;
+    border-radius: 50%;
+    position: absolute;
+    top: 127px;
+    left: 605px;
+    animation: rotate 4s infinite linear;
+
+}
+.banner .round-shape .inner-shape{
+    width: 25px;
+    height: 25px;
+    background: #FFABBA;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0;
+    left: 11px;
+}
+@keyframes rotate{
+    from{
+        transform: rotate(0);
+    }to{
+        transform: rotate(360deg);
+    }
+}
+.banner .dot{
+    width: 20px;
+    height: 20px;
+    background: #C087EE;
+    border-radius: 50%;
+    position: absolute;
+    top: 265px;
+    right: 582px;
+    animation: tb 4s infinite linear alternate;
+}
+@keyframes tb{
+    from{
+        transform:translateY(-50px)
+    }to{
+        transform:translateY(0)
+
+    }
+}
+.banner .cross {
+    height: 20px;
+    width: 20px;
+    color: #FFABBA;
+    position: absolute;
+    top: 110px;
+    left: 241px;
+    animation: rotate 4s infinite linear;
+}
+.banner .cross2 {
+    height: 20px;
+    width: 20px;
+    color: #C087EE;
+    position: absolute;
+    top: 250px;
+    right: 302px;
+    animation: rotate 4s infinite linear ;
+}
+
+.banner h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+    color: #29313D;
+    width: 771px;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 130%;
+    text-transform: capitalize;
+}
+.banner p{
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #29313D;
+    width: 547px;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 220%;
+    margin-top: 24px;
+    margin-bottom: 44px;
+
+}
+.banner .button{
+    text-align: center;
+
+}

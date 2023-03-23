@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1407px;
+    margin: 0 auto;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+
+}
+
+
+
+
+.title h4{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #FF5538;
+    text-transform: capitalize;
+}
+ .title h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    color: #29313D;
+    width: 449px;
+    text-transform: capitalize;
+    line-height: 140%;
+    margin-top: 10px;
+
+}

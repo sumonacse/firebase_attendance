@@ -1,0 +1,99 @@
+.digital{
+    margin-top: -232px;
+}
+.digital .box{
+    display: flex;
+}
+.digital .left{
+    width: 50%;
+}
+.digital .left img {
+    position: relative;
+    right: 11px;
+    top: 34px;
+    width: 110%;
+    height: 391px;
+}
+.digital .right {
+    width: 50%;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    padding-top: 39px;
+    padding-bottom: 138px;
+    padding-left: 95px;
+    margin-bottom: 100px;
+}
+.digital .right h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    color: #29313D;
+    width: 494px;
+    line-height: 140%;
+}
+.digital .right p{
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color:#29313D;
+    line-height: 200%;
+    width: 422px;
+    margin-top: 12px;
+}
+.digital .button{
+    text-align: center;
+    margin-left: -45px;
+    margin-top: 10px;
+}
+.digital .button a{
+    display: inline-block;
+    background: #FF5538;
+    color: #fff;
+    padding: 14px 28px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 18px;
+    /* margin: 0 12px; */
+    text-transform: capitalize;
+    border: 1px solid transparent;
+    transition: .4s;
+    margin-left: -506px;
+    margin-top: 10px;
+}
+.digital .button a:hover{
+    background: transparent;
+    color:#FF5538;
+    border-color: #FF5538;
+
+}
+.digital .left .round-shape {
+    width: 121px;
+    height: 121px;
+    border: 1px solid #FFABBA;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -690px;
+    left: 504px;
+    animation: rotate 4s infinite linear;
+    z-index: -1;
+}
+.digital .round-shape .inner-shape{
+    width: 25px;
+    height: 25px;
+    background: #FFABBA;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0;
+    left: 11px;
+}
+.digital .cross {
+    height: 20px;
+    width: 20px;
+    color: #C087EE;
+    position: absolute;
+    bottom: -580px;
+    right: 80px;
+    animation: rotate 4s infinite linear;
+}

@@ -1,0 +1,630 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1407px;
+    margin: 0 auto;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+
+}
+
+/* ===========================================
+                common css start
+==============================================*/
+
+ .title h4{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #FF5538;
+    text-transform: capitalize;
+}
+ .title h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    color: #29313D;
+    width: 449px;
+    text-transform: capitalize;
+    line-height: 140%;
+    margin-top: 10px;
+
+}
+
+/* ===========================================
+                common css end
+==============================================*/
+/* ================================================
+                     Navbar start
+==================================================*/
+nav{
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    top: 15px;
+    left: 0;
+}
+nav .box{
+    display: flex;
+}
+nav .logo{
+    width: 20%;
+    
+}
+nav .nav-item{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav .nav-item ul{
+    display: flex;
+    justify-content: center;
+    column-gap: 50px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+nav .nav-item ul li i{
+    margin-left: 5px;
+}
+nav .button{
+    width: 20%;
+    /* text-align: right; */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav .button a{
+    display: inline-block;
+    background: #FF5538;
+    color: #fff;
+    padding: 14px 28px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 18px;
+    border: 1px solid transparent;
+    transition: .4s;
+}
+nav .button a:hover{
+    background: transparent;
+    color:#FF5538;
+    border-color: #FF5538;
+
+}
+/* ================================================
+                     Navbar end
+==================================================*/
+/* ================================================
+                     banner start
+==================================================*/
+.banner{
+    background: url(pic/banner-bg.png) no-repeat center;
+    background-size:cover ;
+    /* padding: 450px 0; */
+    padding-top: 300px;
+    padding-bottom: 430px;
+    position: relative;
+}
+.banner .round-shape{
+    width: 121px;
+    height: 121px;
+    border: 1px solid #FFABBA;
+    border-radius: 50%;
+    position: absolute;
+    top: 127px;
+    left: 605px;
+    animation: rotate 4s infinite linear;
+
+}
+.banner .round-shape .inner-shape{
+    width: 25px;
+    height: 25px;
+    background: #FFABBA;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0;
+    left: 11px;
+}
+@keyframes rotate{
+    from{
+        transform: rotate(0);
+    }to{
+        transform: rotate(360deg);
+    }
+}
+.banner .dot{
+    width: 20px;
+    height: 20px;
+    background: #C087EE;
+    border-radius: 50%;
+    position: absolute;
+    top: 265px;
+    right: 582px;
+    animation: tb 4s infinite linear alternate;
+}
+@keyframes tb{
+    from{
+        transform:translateY(-50px)
+    }to{
+        transform:translateY(0)
+
+    }
+}
+.banner .cross {
+    height: 20px;
+    width: 20px;
+    color: #FFABBA;
+    position: absolute;
+    top: 110px;
+    left: 241px;
+    animation: rotate 4s infinite linear;
+}
+.banner .cross2 {
+    height: 20px;
+    width: 20px;
+    color: #C087EE;
+    position: absolute;
+    top: 250px;
+    right: 302px;
+    animation: rotate 4s infinite linear ;
+}
+
+.banner h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+    color: #29313D;
+    width: 771px;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 130%;
+    text-transform: capitalize;
+}
+.banner p{
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #29313D;
+    width: 547px;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 220%;
+    margin-top: 24px;
+    margin-bottom: 44px;
+
+}
+.banner .button{
+    text-align: center;
+
+}
+.banner .button a{
+    display: inline-block;
+    background: #FF5538;
+    color: #fff;
+    padding: 14px 28px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 18px;
+    margin: 0 12px;
+    border: 1px solid transparent;
+    transition: .4s;
+}
+.banner .button a:hover{
+    background: transparent;
+    color:#FF5538;
+    border-color: #FF5538;
+
+}
+
+/* ================================================
+                      banner end
+==================================================*/
+/* ================================================
+                      service start
+==================================================*/
+.service .box{
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-105%);
+}
+.service .item{
+    width: 32%;
+    background: #ffffff;
+    padding: 30px 40px;
+    box-sizing: border-box;
+    -webkit-box-shadow: 0px 7px 82px -6px rgba(0,0,0,0.1);
+    -moz-box-shadow: 0px 7px 82px -6px rgba(0,0,0,0.1);
+    box-shadow: 0px 7px 82px -6px rgba(0,0,0,0.1);
+
+}
+.service .item h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 26px;
+    font-weight: 600;
+    color:#29313D;
+    margin-top: 34px;
+    margin-bottom: 16px;
+    width: 394px;
+}
+.service .item p{
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color:#29313D;
+    width: 374px;
+}
+/* ================================================
+                      service end
+==================================================*/
+/* ================================================
+                      digital start
+==================================================*/
+.digital{
+    margin-top: -232px;
+}
+.digital .box{
+    display: flex;
+}
+.digital .left{
+    width: 50%;
+}
+.digital .left img {
+    position: relative;
+    right: 11px;
+    top: 34px;
+    width: 110%;
+    height: 391px;
+}
+.digital .right {
+    width: 50%;
+    background: url(pic/digital2.png) no-repeat center;
+    background-size: cover;
+    padding-top: 39px;
+    padding-bottom: 238px;
+    padding-left: 95px;
+}
+.digital .right h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    color: #29313D;
+    width: 494px;
+    line-height: 140%;
+}
+.digital .right p{
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color:#29313D;
+    line-height: 200%;
+    width: 422px;
+    margin-top: 12px;
+}
+.digital .button{
+    text-align: center;
+}
+.digital .button a{
+    display: inline-block;
+    background: #FF5538;
+    color: #fff;
+    padding: 14px 28px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 18px;
+    /* margin: 0 12px; */
+    text-transform: capitalize;
+    border: 1px solid transparent;
+    transition: .4s;
+    margin-left: -506px;
+    margin-top: 10px;
+}
+.digital .button a:hover{
+    background: transparent;
+    color:#FF5538;
+    border-color: #FF5538;
+
+}
+.digital .left .round-shape {
+    width: 121px;
+    height: 121px;
+    border: 1px solid #FFABBA;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -690px;
+    left: 504px;
+    animation: rotate 4s infinite linear;
+    z-index: -1;
+}
+.digital .round-shape .inner-shape{
+    width: 25px;
+    height: 25px;
+    background: #FFABBA;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0;
+    left: 11px;
+}
+.digital .cross {
+    height: 20px;
+    width: 20px;
+    color: #C087EE;
+    position: absolute;
+    bottom: -580px;
+    right: 80px;
+    animation: rotate 4s infinite linear;
+}
+/* ================================================
+                      digital end
+==================================================*/
+/* ================================================
+                      work start
+==================================================*/
+.work{
+    margin-top: -48px;
+}
+.work .box{
+    display: flex;
+    justify-content: space-between;
+}
+.work .box .text{
+    width: 80%;
+}
+.work .box .text .title h2{
+    width: 693px;
+    margin-bottom: 60px;
+}
+.work .box .button{
+    width: 20%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.work .button{
+    text-align: center;
+}
+.work .button a{
+    display: inline-block;
+    background: transparent;
+    color: #FF5538;
+    padding: 14px 28px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 18px;
+    text-transform: capitalize;
+    border: 1px solid #FF5538;
+    transition: .4s;
+    /* margin-right: -115px; */
+    margin-top: 18px;
+}
+.work .button a:hover{
+    background: #FF5538;
+    color:#fff;
+    border-color: transparent;
+
+}
+.work .small-item{
+    width: 40%;
+    position: relative;
+    margin-bottom: 30px;
+}
+.work .large-item{
+    width: 58%;
+    position: relative;
+    margin-bottom: 30px;
+}
+.work img{
+    width: 100%;
+    height: 332px;
+}
+.work .text-box{
+    width: 100%;
+    background: #fff;
+    padding: 30px;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: -123px;
+    left: 0;
+    opacity: 0;
+    transition: .4s;
+    -webkit-box-shadow: 0px 0px 24px 0px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 0px 24px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 0px 24px 0px rgba(0,0,0,0.2);
+
+}
+.work .small-item:hover .text-box{
+    bottom: 0;
+    opacity: 1;
+}
+.work .large-item:hover .text-box{
+    bottom: 0;
+    opacity: 1;
+}
+.work .text-box h4{
+    font-family: 'Poppins', sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    color: #29313D;
+}
+.work .text-box a{
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #FF5538;
+    display: inline-block;
+}
+.work .corner{
+    position: relative;
+}
+.work .corner img {
+    position: absolute;
+    width: 313px;
+    height: 564px;
+    margin-top: -295px;
+    margin-left: -124px;
+    z-index: -1;
+}
+
+/* ================================================
+                      work end
+==================================================*/
+/* ================================================
+                   counting start
+==================================================*/
+.counting{
+    background: url(pic/counting.png) no-repeat center;
+    background-size: cover;
+    background-position: right;
+    padding: 120px 0;
+    margin-top: 45px;
+}
+.counting .box{
+    display: flex;
+}
+.counting .box .count{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+   
+}
+.counting .box .count .item{
+    width: 47%;
+    background: #fff;
+    text-align: center;
+    padding: 74px 0;
+
+}
+
+.counting .box .details{
+    width: 50%;
+    padding-left: 100px;
+    box-sizing: border-box;
+    
+}
+.counting .box .details .title h2{
+    width: 570px;
+}
+.counting .box .details p{
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 200%;
+    width: 530px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.counting .details .button{
+    text-align: center;
+}
+.counting .details .button a {
+    display: inline-block;
+    background: #FF5538;
+    color: #fff;
+    padding: 14px 28px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 18px;
+    /* margin: 0 12px; */
+    text-transform: capitalize;
+    border: 1px solid transparent;
+    transition: .4s;
+    margin-left: -394px;
+    margin-top: 8px;
+}
+.counting .details .button a:hover{
+    background: transparent;
+    color:#FF5538;
+    border-color: #FF5538;
+
+}
+.counting .box .count .item h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    color: #29313D;
+}
+.counting .box .count .item p{
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #29313D;
+}
+
+/* ================================================
+                    counting end
+==================================================*/
+/* ================================================
+                    global start
+==================================================*/
+.global{
+    margin-top: 120px;
+}
+.global .title{
+    text-align: center;
+    margin-bottom: 60px;
+}
+.global .title h2{
+    width: 849px;
+    margin: 0 auto;
+}
+.global .box{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* ================================================
+                    global end
+==================================================*/
+/* ================================================
+                    customer start
+==================================================*/
+.customer{
+    background:url(pic/customer.png) no-repeat center;
+    background-size: cover;
+    margin-top: 120px;
+    padding: 139px 0;
+}
+.customer .box{
+    display: flex;
+}
+.customer .details{
+    width: 50%;
+}
+.customer .imgbox{
+    display: flex;
+    column-gap: 28px;
+    margin-top: 60px;
+}
+.customer .details p{
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 180%;
+    margin: 60px 0;
+}
+.customer .details h3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+}
+.customer .img{
+    width: 50%;
+    text-align: center;
+}
+/* ================================================
+                    customer end
+==================================================*/

@@ -1,0 +1,57 @@
+nav{
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    top: 15px;
+    left: 0;
+}
+nav .box{
+    display: flex;
+}
+nav .logo{
+    width: 20%;
+    
+}
+nav .nav-item{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav .nav-item ul{
+    display: flex;
+    justify-content: center;
+    column-gap: 50px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+nav .nav-item ul li i{
+    margin-left: 5px;
+}
+nav .button{
+    width: 20%;
+    /* text-align: right; */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav .button a{
+    display: inline-block;
+    background: #FF5538;
+    color: #fff;
+    padding: 14px 28px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 18px;
+    border: 1px solid transparent;
+    transition: .4s;
+}
+nav .button a:hover{
+    background: transparent;
+    color:#FF5538;
+    border-color: #FF5538;
+
+}

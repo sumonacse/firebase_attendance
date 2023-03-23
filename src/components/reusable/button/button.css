@@ -1,0 +1,19 @@
+.banner .button a{
+    display: inline-block;
+    background: #FF5538;
+    color: #fff;
+    padding: 14px 28px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 18px;
+    margin: 0 12px;
+    border: 1px solid transparent;
+    transition: .4s;
+}
+.banner .button a:hover{
+    background: transparent;
+    color:#FF5538;
+    border-color: #FF5538;
+
+}

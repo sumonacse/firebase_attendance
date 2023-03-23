@@ -1,0 +1,26 @@
+.service .item{
+    width: 32%;
+    background: #ffffff;
+    padding: 30px 40px;
+    box-sizing: border-box;
+    -webkit-box-shadow: 0px 7px 82px -6px rgba(0,0,0,0.1);
+    -moz-box-shadow: 0px 7px 82px -6px rgba(0,0,0,0.1);
+    box-shadow: 0px 7px 82px -6px rgba(0,0,0,0.1);
+
+}
+.service .item h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 26px;
+    font-weight: 600;
+    color:#29313D;
+    margin-top: 34px;
+    margin-bottom: 16px;
+    width: 394px;
+}
+.service .item p{
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color:#29313D;
+    width: 374px;
+}

@@ -1,0 +1,5 @@
+.service .box{
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-105%);
+}
